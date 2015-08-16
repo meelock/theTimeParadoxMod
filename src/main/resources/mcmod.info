@@ -1,0 +1,16 @@
+[
+{
+  "modid": "theTimeParadoxMod",
+  "name": "The Time Paradox Mod",
+  "description": "a mod about time and space! it will get timy wimy in here!",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Meelock, kneelawk"],
+  "credits": "kneelawk for helping me get started, and the forge team for doing there thing",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
