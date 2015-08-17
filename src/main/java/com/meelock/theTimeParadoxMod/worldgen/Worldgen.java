@@ -16,11 +16,19 @@ public class Worldgen implements IWorldGenerator {
 			IChunkProvider chunkProvider) {
 		if (world.provider.dimensionId == 0) {
 			int heightDiff = 7 - 1 + 1;
-			for (int i = 0; i < 2; i++) {
+			for (int i = 0; i < 7; i++) {
 				int x = chunkX * 16 + rand.nextInt(16);
 				int y = 1 + rand.nextInt(heightDiff);
 				int z = chunkZ * 16 + rand.nextInt(16);
 				new WorldGenMinable(TPMBlocks.paradox, 2).generate(world, rand, x, y, z);
+				
+			}
+			heightDiff = 3 - 1 + 1;
+			for (int i = 0; i < 10; i++) {
+				int x = chunkX * 16 + rand.nextInt(16);
+				int y = 1 + rand.nextInt(heightDiff);
+				int z = chunkZ * 16 + rand.nextInt(16);
+				new WorldGenMinable(TPMBlocks.hardendparadox, 1).generate(world, rand, x, y, z);
 			}
 		}
 	}

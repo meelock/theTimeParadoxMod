@@ -13,6 +13,7 @@ public class TPMItems {
 	public static Item paradoxchip;
 	public static Item paradoxpickaxe;
 	public static ToolMaterial PARADOX = EnumHelper.addToolMaterial("paradox", 4, 1811, 8.0F, 3.0F, 20);
+	
 	public static void init(){
 		paradoxchip = new Paradoxchip().setUnlocalizedName("paradoxchip").setCreativeTab(CreativeTabs.tabMaterials)
 				.setTextureName("theTimeParadoxMod:paradoxchip");
