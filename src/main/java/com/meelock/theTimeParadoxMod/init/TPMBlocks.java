@@ -1,6 +1,6 @@
 package com.meelock.theTimeParadoxMod.init;
 
-import com.meelock.theTimeParadoxMod.blocks.hardendparadox;
+import com.meelock.theTimeParadoxMod.blocks.hardenedparadox;
 import com.meelock.theTimeParadoxMod.blocks.paradox;
 import com.meelock.theTimeParadoxMod.blocks.stableparadox;
 import cpw.mods.fml.common.registry.GameRegistry;
@@ -20,8 +20,8 @@ public class TPMBlocks {
 		stableparadox = new stableparadox(Material.rock).setBlockName("stableparadox").setCreativeTab(CreativeTabs.tabBlock)
 				.setBlockTextureName("theTimeParadoxMod:stableparadox");
 		GameRegistry.registerBlock(stableparadox, "stableparadox");
-		hardendparadox = new hardendparadox(Material.rock).setBlockName("hardendparadox").setCreativeTab(CreativeTabs.tabBlock)
-				.setBlockTextureName("theTimeParadoxMod:hardendparadox");
-		GameRegistry.registerBlock(hardendparadox, "hardendparadox");
+		hardendparadox = new hardenedparadox("hardenedparadox", Material.rock, TPMItems.phasedparadoxshard, 1, 7).setBlockName("hardenedparadox").setCreativeTab(CreativeTabs.tabBlock)
+				.setBlockTextureName("theTimeParadoxMod:hardenedparadox");
+		GameRegistry.registerBlock(hardendparadox, "hardenedparadox");
 	}
 }

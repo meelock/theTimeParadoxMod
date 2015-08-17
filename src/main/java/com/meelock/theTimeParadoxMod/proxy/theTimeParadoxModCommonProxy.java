@@ -9,7 +9,7 @@ import cpw.mods.fml.common.registry.GameRegistry;
 public class theTimeParadoxModCommonProxy {
 	public void preinit(){
 		GameRegistry.registerWorldGenerator(new Worldgen(), 0);
-		TPMBlocks.init();
 		TPMItems.init();
+		TPMBlocks.init();
 	}
 }
