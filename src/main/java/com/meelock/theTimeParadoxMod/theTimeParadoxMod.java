@@ -21,7 +21,7 @@ import net.minecraft.item.ItemStack;
 @Mod(modid = theTimeParadoxMod.MODID, version = theTimeParadoxMod.VERSION)
 public class theTimeParadoxMod {
 	public static final String MODID = "theTimeParadoxMod";
-	public static final String VERSION = "PreAlpha[0.0.2]";
+	public static final String VERSION = "PreAlpha[0.0.3]";
 
 	@Instance("theTimeParadoxMod")
 	public static theTimeParadoxMod instance;
